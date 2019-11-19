@@ -1,0 +1,55 @@
+body{
+    padding:0 ;
+    margin:0 ;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+span{
+transition: 0.2s;    
+}
+span:hover{
+    font-size:35px; 
+    transition: 0.2s;
+}
+h3:hover{
+    font-size:35px;
+    transition: 0.2s;
+}
+h3{
+    padding: 10px;
+    background-color: rgba(38, 255, 0, 0.452);
+    margin: 10px auto; 
+    transition: 0.2s;}
+#message{
+    background-color: rgba(0, 162, 255, 0.144);
+    width: 400px;
+    border: solid 2px black;
+    border-radius:10px; 
+    margin: 10px auto;
+    padding: 10px;
+    transition: 0.3;
+}
+
+form{
+    width: 400px; 
+    padding: 10px;
+    margin: 10px auto;
+    background-color:rgba(0, 0, 0, 0.109) ;
+    border-radius:20px; 
+    transition: 0.3s;
+}
+    
+
+textarea{
+    width: 3%;
+}
+
+@media screen and (max-width: 700px){
+    form{
+        width: 80%; 
+        height: 10%;
+    }
+    #message{
+        width: 80%;
+    }
+}
